@@ -6,11 +6,12 @@
 
 ## How to use
 
+### 1. Download expert data 
+Download expert data from this [dropbox url](https://www.dropbox.com/s/wu6fddmjk5ojrg6/expert_data.zip?dl=0). Unzip and place it in the scripts folder (i.e., *scripts/expert_data/*)
+
+### 2. Running training scripts
+
 This repository consists of two version of AGAIL: one for discrete actions and another for continuous actions. To use it, take following steps. 
-
-1. Download the expert data from this [dropbox url](https://www.dropbox.com/s/wu6fddmjk5ojrg6/expert_data.zip?dl=0). Unzip and place it in the scripts folder (i.e., *scripts/expert_data/*)
-
-2. Running training scripts:
 
 * Discrete action control:
 
@@ -24,6 +25,7 @@ python3 agail_trpo_cartpole.py --loss_percent 0.25 --seed 0 --algo trpo # runnin
 # run multiple process, e.g., run agail
 sh run_cartpole.sh 
 ```
+(Checkpoints and logs will be written into *checkpoint* and *log_trpo_cartpole* folder)
 
 * Continuous action control:
 
@@ -36,6 +38,12 @@ python3 agail_trpo.py --loss_percent 0.25 --env_id Hopper --expert_path expert_d
 ``` bash
 # run multiple process
 sh run_mujoco.sh
+```
+(Checkpoints and logs will be written into *checkpoint* and *log_trpo_mujoco* folder)
+
+### 3. Plotting curves
+``` python
+python3 plot_curve.py --env_id Hopper --timesteps 5000000
 ```
 
 ## Experiment outcomes
