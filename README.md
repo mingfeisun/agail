@@ -11,7 +11,7 @@ Download expert data from this [dropbox url](https://www.dropbox.com/s/wu6fddmjk
 
 ### 2. Running training scripts
 
-This repository consists of two version of AGAIL: one for discrete actions and another for continuous actions. To use it, take following steps. 
+This repository consists of two version of AGAIL in folder **scripts**: one for discrete actions and another for continuous actions. 
 
 * Discrete action control:
 
