@@ -1,0 +1,1079 @@
+Logging to log_trpo_cartpole/CartPole/GAIL_0.00-3
+********** Iteration 0 ************
+Optimizing Policy...
+Expected: 0.024 Actual: 0.024
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.56001 |       0.74953 |       0.67725 |      -0.00068 |       0.86230 |       0.36523
+---------------------------------
+| EpLenMean       | 22.7        |
+| EpRewMean       | 13.338602   |
+| EpThisIter      | 44          |
+| EpTrueRewMean   | 22.7        |
+| EpisodesSoFar   | 44          |
+| TimeElapsed     | 6.26        |
+| TimestepsSoFar  | 1009        |
+| entloss         | 0.0         |
+| entropy         | 0.6844734   |
+| ev_tdlam_before | -0.00204    |
+| meankl          | 0.008815278 |
+| optimgain       | 0.023595165 |
+| surrgain        | 0.023595165 |
+---------------------------------
+********** Iteration 1 ************
+Optimizing Policy...
+Expected: 0.019 Actual: 0.019
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.52480 |       0.70610 |       0.67244 |      -0.00067 |       0.92188 |       0.47070
+---------------------------------
+| EpLenMean       | 26.7        |
+| EpRewMean       | 14.362867   |
+| EpThisIter      | 38          |
+| EpTrueRewMean   | 26.7        |
+| EpisodesSoFar   | 82          |
+| TimeElapsed     | 9.77        |
+| TimestepsSoFar  | 2023        |
+| entloss         | 0.0         |
+| entropy         | 0.6635842   |
+| ev_tdlam_before | 0.0208      |
+| meankl          | 0.008193348 |
+| optimgain       | 0.019465337 |
+| surrgain        | 0.019465337 |
+---------------------------------
+********** Iteration 2 ************
+Optimizing Policy...
+Expected: 0.020 Actual: 0.021
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.50060 |       0.67289 |       0.66389 |      -0.00066 |       0.95703 |       0.55176
+---------------------------------
+| EpLenMean       | 33.5        |
+| EpRewMean       | 17.331787   |
+| EpThisIter      | 28          |
+| EpTrueRewMean   | 33.5        |
+| EpisodesSoFar   | 110         |
+| TimeElapsed     | 13          |
+| TimestepsSoFar  | 3056        |
+| entloss         | 0.0         |
+| entropy         | 0.64087045  |
+| ev_tdlam_before | 0.0125      |
+| meankl          | 0.00780679  |
+| optimgain       | 0.020947246 |
+| surrgain        | 0.020947246 |
+---------------------------------
+********** Iteration 3 ************
+Optimizing Policy...
+Expected: 0.022 Actual: 0.021
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.51696 |       0.62932 |       0.64997 |      -0.00065 |       0.85352 |       0.62402
+---------------------------------
+| EpLenMean       | 47.8        |
+| EpRewMean       | 24.76592    |
+| EpThisIter      | 16          |
+| EpTrueRewMean   | 47.8        |
+| EpisodesSoFar   | 126         |
+| TimeElapsed     | 16.7        |
+| TimestepsSoFar  | 4085        |
+| entloss         | 0.0         |
+| entropy         | 0.6277938   |
+| ev_tdlam_before | 0.0974      |
+| meankl          | 0.008271044 |
+| optimgain       | 0.021353833 |
+| surrgain        | 0.021353833 |
+---------------------------------
+********** Iteration 4 ************
+Optimizing Policy...
+Expected: 0.022 Actual: 0.021
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.64623 |       0.60615 |       0.64344 |      -0.00064 |       0.69629 |       0.64648
+----------------------------------
+| EpLenMean       | 59.8         |
+| EpRewMean       | 34.78599     |
+| EpThisIter      | 15           |
+| EpTrueRewMean   | 59.8         |
+| EpisodesSoFar   | 141          |
+| TimeElapsed     | 21.2         |
+| TimestepsSoFar  | 5039         |
+| entloss         | 0.0          |
+| entropy         | 0.5845163    |
+| ev_tdlam_before | 0.151        |
+| meankl          | 0.0074468674 |
+| optimgain       | 0.02086104   |
+| surrgain        | 0.02086104   |
+----------------------------------
+********** Iteration 5 ************
+Optimizing Policy...
+Expected: 0.019 Actual: 0.018
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.68874 |       0.62408 |       0.62706 |      -0.00063 |       0.70605 |       0.60547
+---------------------------------
+| EpLenMean       | 73.7        |
+| EpRewMean       | 45.162434   |
+| EpThisIter      | 10          |
+| EpTrueRewMean   | 73.7        |
+| EpisodesSoFar   | 151         |
+| TimeElapsed     | 25.4        |
+| TimestepsSoFar  | 6019        |
+| entloss         | 0.0         |
+| entropy         | 0.5728569   |
+| ev_tdlam_before | 0.221       |
+| meankl          | 0.008445518 |
+| optimgain       | 0.017536454 |
+| surrgain        | 0.017536454 |
+---------------------------------
+********** Iteration 6 ************
+Optimizing Policy...
+Expected: 0.011 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.85556 |       0.64367 |       0.62410 |      -0.00062 |       0.53418 |       0.58203
+---------------------------------
+| EpLenMean       | 89.5        |
+| EpRewMean       | 63.753246   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 89.5        |
+| EpisodesSoFar   | 157         |
+| TimeElapsed     | 29.1        |
+| TimestepsSoFar  | 7022        |
+| entloss         | 0.0         |
+| entropy         | 0.5953396   |
+| ev_tdlam_before | 0.456       |
+| meankl          | 0.008867943 |
+| optimgain       | 0.011210468 |
+| surrgain        | 0.011210468 |
+---------------------------------
+********** Iteration 7 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.73294 |       0.66963 |       0.64627 |      -0.00065 |       0.65430 |       0.54492
+---------------------------------
+| EpLenMean       | 104         |
+| EpRewMean       | 77.424126   |
+| EpThisIter      | 8           |
+| EpTrueRewMean   | 104         |
+| EpisodesSoFar   | 165         |
+| TimeElapsed     | 33.5        |
+| TimestepsSoFar  | 8167        |
+| entloss         | 0.0         |
+| entropy         | 0.54814506  |
+| ev_tdlam_before | 0.149       |
+| meankl          | 0.008434006 |
+| optimgain       | 0.011093642 |
+| surrgain        | 0.011093642 |
+---------------------------------
+********** Iteration 8 ************
+Optimizing Policy...
+Expected: 0.008 Actual: 0.008
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.75284 |       0.68677 |       0.64547 |      -0.00065 |       0.65039 |       0.51172
+----------------------------------
+| EpLenMean       | 117          |
+| EpRewMean       | 91.1924      |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 117          |
+| EpisodesSoFar   | 171          |
+| TimeElapsed     | 38.3         |
+| TimestepsSoFar  | 9088         |
+| entloss         | 0.0          |
+| entropy         | 0.5758332    |
+| ev_tdlam_before | 0.384        |
+| meankl          | 0.005229048  |
+| optimgain       | 0.0082381945 |
+| surrgain        | 0.0082381945 |
+----------------------------------
+********** Iteration 9 ************
+Optimizing Policy...
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.70689 |       0.67397 |       0.65448 |      -0.00065 |       0.64258 |       0.54004
+---------------------------------
+| EpLenMean       | 137         |
+| EpRewMean       | 104.39488   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 137         |
+| EpisodesSoFar   | 177         |
+| TimeElapsed     | 43.1        |
+| TimestepsSoFar  | 10193       |
+| entloss         | 0.0         |
+| entropy         | 0.5957583   |
+| ev_tdlam_before | 0.116       |
+| meankl          | 0.006571314 |
+| optimgain       | 0.005810884 |
+| surrgain        | 0.005810884 |
+---------------------------------
+********** Iteration 10 ************
+Optimizing Policy...
+Expected: 0.020 Actual: 0.018
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.63728 |       0.67856 |       0.66659 |      -0.00067 |       0.80176 |       0.53027
+---------------------------------
+| EpLenMean       | 144         |
+| EpRewMean       | 111.18076   |
+| EpThisIter      | 10          |
+| EpTrueRewMean   | 144         |
+| EpisodesSoFar   | 187         |
+| TimeElapsed     | 47.3        |
+| TimestepsSoFar  | 11263       |
+| entloss         | 0.0         |
+| entropy         | 0.54139465  |
+| ev_tdlam_before | 0.0247      |
+| meankl          | 0.007820552 |
+| optimgain       | 0.018180026 |
+| surrgain        | 0.018180026 |
+---------------------------------
+********** Iteration 11 ************
+Optimizing Policy...
+Expected: 0.009 Actual: 0.009
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.73309 |       0.68077 |       0.66076 |      -0.00066 |       0.68164 |       0.51855
+----------------------------------
+| EpLenMean       | 151          |
+| EpRewMean       | 113.44108    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 151          |
+| EpisodesSoFar   | 192          |
+| TimeElapsed     | 52.5         |
+| TimestepsSoFar  | 12263        |
+| entloss         | 0.0          |
+| entropy         | 0.566107     |
+| ev_tdlam_before | 0.486        |
+| meankl          | 0.0072743073 |
+| optimgain       | 0.008660229  |
+| surrgain        | 0.008660229  |
+----------------------------------
+********** Iteration 12 ************
+Optimizing Policy...
+Expected: 0.016 Actual: 0.014
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.70813 |       0.66274 |       0.66729 |      -0.00067 |       0.63672 |       0.56836
+----------------------------------
+| EpLenMean       | 151          |
+| EpRewMean       | 109.76982    |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 151          |
+| EpisodesSoFar   | 198          |
+| TimeElapsed     | 57.2         |
+| TimestepsSoFar  | 13218        |
+| entloss         | 0.0          |
+| entropy         | 0.5352722    |
+| ev_tdlam_before | -0.00594     |
+| meankl          | 0.0072179176 |
+| optimgain       | 0.013914879  |
+| surrgain        | 0.013914879  |
+----------------------------------
+********** Iteration 13 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.70970 |       0.66110 |       0.67745 |      -0.00068 |       0.56445 |       0.56934
+---------------------------------
+| EpLenMean       | 157         |
+| EpRewMean       | 113.459885  |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 157         |
+| EpisodesSoFar   | 204         |
+| TimeElapsed     | 62.5        |
+| TimestepsSoFar  | 14319       |
+| entloss         | 0.0         |
+| entropy         | 0.5484391   |
+| ev_tdlam_before | -0.00391    |
+| meankl          | 0.007844856 |
+| optimgain       | 0.010843749 |
+| surrgain        | 0.010843749 |
+---------------------------------
+********** Iteration 14 ************
+Optimizing Policy...
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.71508 |       0.66582 |       0.68147 |      -0.00068 |       0.56152 |       0.57520
+----------------------------------
+| EpLenMean       | 163          |
+| EpRewMean       | 115.885086   |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 163          |
+| EpisodesSoFar   | 209          |
+| TimeElapsed     | 67.5         |
+| TimestepsSoFar  | 15309        |
+| entloss         | 0.0          |
+| entropy         | 0.54147255   |
+| ev_tdlam_before | -0.0012      |
+| meankl          | 0.005624495  |
+| optimgain       | 0.0043774387 |
+| surrgain        | 0.0043774387 |
+----------------------------------
+********** Iteration 15 ************
+Optimizing Policy...
+Expected: 0.020 Actual: 0.016
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.69619 |       0.67505 |       0.68218 |      -0.00068 |       0.53125 |       0.52832
+---------------------------------
+| EpLenMean       | 166         |
+| EpRewMean       | 118.84365   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 166         |
+| EpisodesSoFar   | 214         |
+| TimeElapsed     | 72          |
+| TimestepsSoFar  | 16303       |
+| entloss         | 0.0         |
+| entropy         | 0.5263598   |
+| ev_tdlam_before | -0.00418    |
+| meankl          | 0.00639588  |
+| optimgain       | 0.015976874 |
+| surrgain        | 0.015976874 |
+---------------------------------
+********** Iteration 16 ************
+Optimizing Policy...
+Expected: 0.014 Actual: 0.014
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.67419 |       0.66300 |       0.68344 |      -0.00068 |       0.57031 |       0.56055
+---------------------------------
+| EpLenMean       | 171         |
+| EpRewMean       | 119.24031   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 171         |
+| EpisodesSoFar   | 219         |
+| TimeElapsed     | 75.9        |
+| TimestepsSoFar  | 17303       |
+| entloss         | 0.0         |
+| entropy         | 0.53473234  |
+| ev_tdlam_before | -0.0204     |
+| meankl          | 0.008270048 |
+| optimgain       | 0.013909427 |
+| surrgain        | 0.013909427 |
+---------------------------------
+********** Iteration 17 ************
+Optimizing Policy...
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.70971 |       0.66365 |       0.68367 |      -0.00068 |       0.44141 |       0.55664
+----------------------------------
+| EpLenMean       | 186          |
+| EpRewMean       | 131.34982    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 186          |
+| EpisodesSoFar   | 224          |
+| TimeElapsed     | 80           |
+| TimestepsSoFar  | 18303        |
+| entloss         | 0.0          |
+| entropy         | 0.5641906    |
+| ev_tdlam_before | -0.00194     |
+| meankl          | 0.0073850686 |
+| optimgain       | 0.0062570036 |
+| surrgain        | 0.0062570036 |
+----------------------------------
+********** Iteration 18 ************
+Optimizing Policy...
+Expected: 0.023 Actual: 0.022
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.70351 |       0.68301 |       0.68483 |      -0.00068 |       0.47461 |       0.50586
+----------------------------------
+| EpLenMean       | 191          |
+| EpRewMean       | 135.74704    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 191          |
+| EpisodesSoFar   | 229          |
+| TimeElapsed     | 83.4         |
+| TimestepsSoFar  | 19303        |
+| entloss         | 0.0          |
+| entropy         | 0.55471873   |
+| ev_tdlam_before | 0.523        |
+| meankl          | 0.0092370175 |
+| optimgain       | 0.022462234  |
+| surrgain        | 0.022462234  |
+----------------------------------
+********** Iteration 19 ************
+Optimizing Policy...
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.59010 |       0.68149 |       0.67662 |      -0.00068 |       0.76562 |       0.53906
+---------------------------------
+| EpLenMean       | 191         |
+| EpRewMean       | 133.14856   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 191         |
+| EpisodesSoFar   | 234         |
+| TimeElapsed     | 87.7        |
+| TimestepsSoFar  | 20303       |
+| entloss         | 0.0         |
+| entropy         | 0.59581     |
+| ev_tdlam_before | 0.671       |
+| meankl          | 0.00909047  |
+| optimgain       | 0.006457725 |
+| surrgain        | 0.006457725 |
+---------------------------------
+********** Iteration 20 ************
+Optimizing Policy...
+Expected: 0.004 Actual: 0.005
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.51982 |       0.65531 |       0.66730 |      -0.00067 |       0.95605 |       0.57324
+----------------------------------
+| EpLenMean       | 199          |
+| EpRewMean       | 134.97433    |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 199          |
+| EpisodesSoFar   | 240          |
+| TimeElapsed     | 92.4         |
+| TimestepsSoFar  | 21503        |
+| entloss         | 0.0          |
+| entropy         | 0.5886023    |
+| ev_tdlam_before | 0.625        |
+| meankl          | 0.0066912957 |
+| optimgain       | 0.0051409323 |
+| surrgain        | 0.0051409323 |
+----------------------------------
+********** Iteration 21 ************
+Optimizing Policy...
+Expected: 0.017 Actual: 0.016
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.38646 |       0.62547 |       0.63054 |      -0.00063 |       0.97656 |       0.62598
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 127.53996   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 245         |
+| TimeElapsed     | 97.2        |
+| TimestepsSoFar  | 22503       |
+| entloss         | 0.0         |
+| entropy         | 0.56882846  |
+| ev_tdlam_before | 0.945       |
+| meankl          | 0.008684087 |
+| optimgain       | 0.016410625 |
+| surrgain        | 0.016410625 |
+---------------------------------
+********** Iteration 22 ************
+Optimizing Policy...
+Expected: 0.010 Actual: 0.010
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.43729 |       0.60827 |       0.64056 |      -0.00064 |       0.97559 |       0.62305
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 121.430626  |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 250         |
+| TimeElapsed     | 101         |
+| TimestepsSoFar  | 23503       |
+| entloss         | 0.0         |
+| entropy         | 0.5798596   |
+| ev_tdlam_before | 0.592       |
+| meankl          | 0.009090256 |
+| optimgain       | 0.010252976 |
+| surrgain        | 0.010252976 |
+---------------------------------
+********** Iteration 23 ************
+Optimizing Policy...
+Expected: 0.011 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.43721 |       0.55552 |       0.63161 |      -0.00063 |       0.97656 |       0.69336
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 115.14815   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 255         |
+| TimeElapsed     | 105         |
+| TimestepsSoFar  | 24503       |
+| entloss         | 0.0         |
+| entropy         | 0.5804679   |
+| ev_tdlam_before | 0.588       |
+| meankl          | 0.007274501 |
+| optimgain       | 0.010846821 |
+| surrgain        | 0.010846821 |
+---------------------------------
+********** Iteration 24 ************
+Optimizing Policy...
+Expected: 0.010 Actual: 0.010
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.44676 |       0.54355 |       0.62723 |      -0.00063 |       0.97852 |       0.67480
+---------------------------------
+| EpLenMean       | 197         |
+| EpRewMean       | 106.35637   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 197         |
+| EpisodesSoFar   | 261         |
+| TimeElapsed     | 108         |
+| TimestepsSoFar  | 25582       |
+| entloss         | 0.0         |
+| entropy         | 0.5518825   |
+| ev_tdlam_before | 0.39        |
+| meankl          | 0.005079289 |
+| optimgain       | 0.009881361 |
+| surrgain        | 0.009881361 |
+---------------------------------
+********** Iteration 25 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.013
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.49992 |       0.51897 |       0.62984 |      -0.00063 |       0.94434 |       0.70996
+----------------------------------
+| EpLenMean       | 197          |
+| EpRewMean       | 101.52825    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 197          |
+| EpisodesSoFar   | 266          |
+| TimeElapsed     | 112          |
+| TimestepsSoFar  | 26582        |
+| entloss         | 0.0          |
+| entropy         | 0.5693834    |
+| ev_tdlam_before | 0.331        |
+| meankl          | 0.008543743  |
+| optimgain       | 0.0126051195 |
+| surrgain        | 0.0126051195 |
+----------------------------------
+********** Iteration 26 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.010
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.50677 |       0.51000 |       0.62755 |      -0.00063 |       0.97559 |       0.70996
+---------------------------------
+| EpLenMean       | 197         |
+| EpRewMean       | 96.99673    |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 197         |
+| EpisodesSoFar   | 271         |
+| TimeElapsed     | 116         |
+| TimestepsSoFar  | 27582       |
+| entloss         | 0.0         |
+| entropy         | 0.54239464  |
+| ev_tdlam_before | -0.107      |
+| meankl          | 0.006175161 |
+| optimgain       | 0.010203879 |
+| surrgain        | 0.010203879 |
+---------------------------------
+********** Iteration 27 ************
+Optimizing Policy...
+Expected: 0.007 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.49707 |       0.50885 |       0.61925 |      -0.00062 |       0.96289 |       0.70508
+----------------------------------
+| EpLenMean       | 197          |
+| EpRewMean       | 93.86953     |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 197          |
+| EpisodesSoFar   | 276          |
+| TimeElapsed     | 119          |
+| TimestepsSoFar  | 28582        |
+| entloss         | 0.0          |
+| entropy         | 0.5617858    |
+| ev_tdlam_before | -0.0278      |
+| meankl          | 0.0053140176 |
+| optimgain       | 0.006417579  |
+| surrgain        | 0.006417579  |
+----------------------------------
+********** Iteration 28 ************
+Optimizing Policy...
+Expected: 0.008 Actual: 0.007
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.54667 |       0.52257 |       0.62267 |      -0.00062 |       0.86914 |       0.69629
+---------------------------------
+| EpLenMean       | 197         |
+| EpRewMean       | 95.2486     |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 197         |
+| EpisodesSoFar   | 281         |
+| TimeElapsed     | 123         |
+| TimestepsSoFar  | 29582       |
+| entloss         | 0.0         |
+| entropy         | 0.54737467  |
+| ev_tdlam_before | 0.0196      |
+| meankl          | 0.00722615  |
+| optimgain       | 0.007299575 |
+| surrgain        | 0.007299575 |
+---------------------------------
+********** Iteration 29 ************
+Optimizing Policy...
+Expected: 0.016 Actual: 0.019
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.52716 |       0.51657 |       0.60333 |      -0.00060 |       0.80469 |       0.69922
+---------------------------------
+| EpLenMean       | 196         |
+| EpRewMean       | 97.1108     |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 196         |
+| EpisodesSoFar   | 286         |
+| TimeElapsed     | 126         |
+| TimestepsSoFar  | 30546       |
+| entloss         | 0.0         |
+| entropy         | 0.57288235  |
+| ev_tdlam_before | 0.468       |
+| meankl          | 0.010407392 |
+| optimgain       | 0.018708846 |
+| surrgain        | 0.018708846 |
+---------------------------------
+********** Iteration 30 ************
+Optimizing Policy...
+Expected: 0.011 Actual: 0.010
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.55364 |       0.53799 |       0.61398 |      -0.00061 |       0.80078 |       0.68750
+----------------------------------
+| EpLenMean       | 193          |
+| EpRewMean       | 99.51871     |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 193          |
+| EpisodesSoFar   | 292          |
+| TimeElapsed     | 130          |
+| TimestepsSoFar  | 31628        |
+| entloss         | 0.0          |
+| entropy         | 0.55531776   |
+| ev_tdlam_before | 0.366        |
+| meankl          | 0.0090420395 |
+| optimgain       | 0.009726144  |
+| surrgain        | 0.009726144  |
+----------------------------------
+********** Iteration 31 ************
+Optimizing Policy...
+Expected: 0.008 Actual: 0.008
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.57971 |       0.54817 |       0.60061 |      -0.00060 |       0.74316 |       0.66992
+---------------------------------
+| EpLenMean       | 193         |
+| EpRewMean       | 103.773705  |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 193         |
+| EpisodesSoFar   | 297         |
+| TimeElapsed     | 133         |
+| TimestepsSoFar  | 32628       |
+| entloss         | 0.0         |
+| entropy         | 0.56837034  |
+| ev_tdlam_before | 0.304       |
+| meankl          | 0.008475207 |
+| optimgain       | 0.008329404 |
+| surrgain        | 0.008329404 |
+---------------------------------
+********** Iteration 32 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.012
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.79309 |       0.56074 |       0.59974 |      -0.00060 |       0.42676 |       0.65820
+---------------------------------
+| EpLenMean       | 196         |
+| EpRewMean       | 110.30605   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 196         |
+| EpisodesSoFar   | 302         |
+| TimeElapsed     | 137         |
+| TimestepsSoFar  | 33628       |
+| entloss         | 0.0         |
+| entropy         | 0.58069575  |
+| ev_tdlam_before | 0.139       |
+| meankl          | 0.010720426 |
+| optimgain       | 0.012068057 |
+| surrgain        | 0.012068057 |
+---------------------------------
+********** Iteration 33 ************
+Optimizing Policy...
+Expected: 0.014 Actual: 0.014
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.80597 |       0.57747 |       0.61020 |      -0.00061 |       0.44629 |       0.63281
+----------------------------------
+| EpLenMean       | 196          |
+| EpRewMean       | 120.0863     |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 196          |
+| EpisodesSoFar   | 307          |
+| TimeElapsed     | 141          |
+| TimestepsSoFar  | 34628        |
+| entloss         | 0.0          |
+| entropy         | 0.5692317    |
+| ev_tdlam_before | 0.089        |
+| meankl          | 0.0093914205 |
+| optimgain       | 0.013612272  |
+| surrgain        | 0.013612272  |
+----------------------------------
+********** Iteration 34 ************
+Optimizing Policy...
+Expected: 0.016 Actual: 0.016
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.85318 |       0.61934 |       0.61337 |      -0.00061 |       0.33398 |       0.57715
+----------------------------------
+| EpLenMean       | 196          |
+| EpRewMean       | 130.81169    |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 196          |
+| EpisodesSoFar   | 313          |
+| TimeElapsed     | 145          |
+| TimestepsSoFar  | 35828        |
+| entloss         | 0.0          |
+| entropy         | 0.57267976   |
+| ev_tdlam_before | 0.11         |
+| meankl          | 0.0091818115 |
+| optimgain       | 0.01593366   |
+| surrgain        | 0.01593366   |
+----------------------------------
+********** Iteration 35 ************
+Optimizing Policy...
+Expected: 0.016 Actual: 0.015
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      1.15326 |       0.67959 |       0.58453 |      -0.00058 |       0.32520 |       0.52051
+----------------------------------
+| EpLenMean       | 196          |
+| EpRewMean       | 147.79472    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 196          |
+| EpisodesSoFar   | 318          |
+| TimeElapsed     | 148          |
+| TimestepsSoFar  | 36828        |
+| entloss         | 0.0          |
+| entropy         | 0.55441153   |
+| ev_tdlam_before | 0.0368       |
+| meankl          | 0.0083284145 |
+| optimgain       | 0.015284903  |
+| surrgain        | 0.015284903  |
+----------------------------------
+********** Iteration 36 ************
+Optimizing Policy...
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      1.12589 |       0.70826 |       0.59811 |      -0.00060 |       0.30957 |       0.48145
+----------------------------------
+| EpLenMean       | 196          |
+| EpRewMean       | 165.02841    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 196          |
+| EpisodesSoFar   | 323          |
+| TimeElapsed     | 152          |
+| TimestepsSoFar  | 37828        |
+| entloss         | 0.0          |
+| entropy         | 0.59328365   |
+| ev_tdlam_before | 0.0131       |
+| meankl          | 0.0051592635 |
+| optimgain       | 0.0055331453 |
+| surrgain        | 0.0055331453 |
+----------------------------------
+********** Iteration 37 ************
+Optimizing Policy...
+Expected: 0.020 Actual: 0.017
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.96784 |       0.73834 |       0.62477 |      -0.00062 |       0.39941 |       0.43066
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 178.4654    |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 328         |
+| TimeElapsed     | 156         |
+| TimestepsSoFar  | 38828       |
+| entloss         | 0.0         |
+| entropy         | 0.5509727   |
+| ev_tdlam_before | 0.0277      |
+| meankl          | 0.007911068 |
+| optimgain       | 0.016668264 |
+| surrgain        | 0.016668264 |
+---------------------------------
+********** Iteration 38 ************
+Optimizing Policy...
+Expected: 0.013 Actual: 0.013
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.91737 |       0.76913 |       0.63298 |      -0.00063 |       0.38770 |       0.36914
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 189.38232   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 333         |
+| TimeElapsed     | 160         |
+| TimestepsSoFar  | 39828       |
+| entloss         | 0.0         |
+| entropy         | 0.5693463   |
+| ev_tdlam_before | 0.25        |
+| meankl          | 0.008902103 |
+| optimgain       | 0.012995517 |
+| surrgain        | 0.012995517 |
+---------------------------------
+********** Iteration 39 ************
+Optimizing Policy...
+Expected: 0.011 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.99950 |       0.78068 |       0.63984 |      -0.00064 |       0.31836 |       0.35840
+---------------------------------
+| EpLenMean       | 200         |
+| EpRewMean       | 200.11528   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 200         |
+| EpisodesSoFar   | 338         |
+| TimeElapsed     | 164         |
+| TimestepsSoFar  | 40815       |
+| entloss         | 0.0         |
+| entropy         | 0.59133387  |
+| ev_tdlam_before | 0.501       |
+| meankl          | 0.01019856  |
+| optimgain       | 0.011195335 |
+| surrgain        | 0.011195335 |
+---------------------------------
+********** Iteration 40 ************
+Optimizing Policy...
+Expected: 0.019 Actual: 0.019
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.88664 |       0.80803 |       0.65647 |      -0.00066 |       0.36426 |       0.28418
+---------------------------------
+| EpLenMean       | 199         |
+| EpRewMean       | 201.94095   |
+| EpThisIter      | 5           |
+| EpTrueRewMean   | 199         |
+| EpisodesSoFar   | 343         |
+| TimeElapsed     | 167         |
+| TimestepsSoFar  | 41802       |
+| entloss         | 0.0         |
+| entropy         | 0.5866405   |
+| ev_tdlam_before | 0.611       |
+| meankl          | 0.008859789 |
+| optimgain       | 0.019213215 |
+| surrgain        | 0.019213215 |
+---------------------------------
+********** Iteration 41 ************
+Optimizing Policy...
+Expected: 0.016 Actual: 0.015
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.75712 |       0.82587 |       0.66860 |      -0.00067 |       0.49707 |       0.24805
+---------------------------------
+| EpLenMean       | 199         |
+| EpRewMean       | 202.63924   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 199         |
+| EpisodesSoFar   | 349         |
+| TimeElapsed     | 171         |
+| TimestepsSoFar  | 42988       |
+| entloss         | 0.0         |
+| entropy         | 0.58648235  |
+| ev_tdlam_before | 0.505       |
+| meankl          | 0.006401211 |
+| optimgain       | 0.015210292 |
+| surrgain        | 0.015210292 |
+---------------------------------
+********** Iteration 42 ************
+Optimizing Policy...
+Expected: 0.013 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.68480 |       0.81313 |       0.67407 |      -0.00067 |       0.60547 |       0.29102
+---------------------------------
+| EpLenMean       | 192         |
+| EpRewMean       | 188.76451   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 192         |
+| EpisodesSoFar   | 355         |
+| TimeElapsed     | 174         |
+| TimestepsSoFar  | 43926       |
+| entloss         | 0.0         |
+| entropy         | 0.5591569   |
+| ev_tdlam_before | 0.551       |
+| meankl          | 0.006752461 |
+| optimgain       | 0.010835192 |
+| surrgain        | 0.010835192 |
+---------------------------------
+********** Iteration 43 ************
+Optimizing Policy...
+Expected: 0.012 Actual: 0.011
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.63079 |       0.79097 |       0.67672 |      -0.00068 |       0.66602 |       0.31934
+---------------------------------
+| EpLenMean       | 191         |
+| EpRewMean       | 171.4667    |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 191         |
+| EpisodesSoFar   | 361         |
+| TimeElapsed     | 179         |
+| TimestepsSoFar  | 45056       |
+| entloss         | 0.0         |
+| entropy         | 0.5647161   |
+| ev_tdlam_before | 0.663       |
+| meankl          | 0.008035384 |
+| optimgain       | 0.011307829 |
+| surrgain        | 0.011307829 |
+---------------------------------
+********** Iteration 44 ************
+Optimizing Policy...
+Expected: 0.008 Actual: 0.007
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.60874 |       0.77079 |       0.67885 |      -0.00068 |       0.76270 |       0.37207
+----------------------------------
+| EpLenMean       | 188          |
+| EpRewMean       | 156.0975     |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 188          |
+| EpisodesSoFar   | 366          |
+| TimeElapsed     | 183          |
+| TimestepsSoFar  | 45967        |
+| entloss         | 0.0          |
+| entropy         | 0.5677346    |
+| ev_tdlam_before | 0.653        |
+| meankl          | 0.0068067033 |
+| optimgain       | 0.0069901836 |
+| surrgain        | 0.0069901836 |
+----------------------------------
+********** Iteration 45 ************
+Optimizing Policy...
+Expected: 0.021 Actual: 0.017
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.60678 |       0.75077 |       0.67966 |      -0.00068 |       0.72363 |       0.37891
+----------------------------------
+| EpLenMean       | 185          |
+| EpRewMean       | 143.8085     |
+| EpThisIter      | 6            |
+| EpTrueRewMean   | 185          |
+| EpisodesSoFar   | 372          |
+| TimeElapsed     | 187          |
+| TimestepsSoFar  | 47031        |
+| entloss         | 0.0          |
+| entropy         | 0.53278255   |
+| ev_tdlam_before | 0.781        |
+| meankl          | 0.0068319235 |
+| optimgain       | 0.0169723    |
+| surrgain        | 0.0169723    |
+----------------------------------
+********** Iteration 46 ************
+Optimizing Policy...
+Expected: 0.005 Actual: 0.006
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.58823 |       0.71668 |       0.67924 |      -0.00068 |       0.77930 |       0.47363
+----------------------------------
+| EpLenMean       | 183          |
+| EpRewMean       | 132.41125    |
+| EpThisIter      | 5            |
+| EpTrueRewMean   | 183          |
+| EpisodesSoFar   | 377          |
+| TimeElapsed     | 192          |
+| TimestepsSoFar  | 47954        |
+| entloss         | 0.0          |
+| entropy         | 0.5758273    |
+| ev_tdlam_before | 0.795        |
+| meankl          | 0.0063074995 |
+| optimgain       | 0.005656828  |
+| surrgain        | 0.005656828  |
+----------------------------------
+********** Iteration 47 ************
+Optimizing Policy...
+Expected: 0.008 Actual: 0.007
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.54942 |       0.69880 |       0.67230 |      -0.00067 |       0.78516 |       0.50781
+----------------------------------
+| EpLenMean       | 178          |
+| EpRewMean       | 114.94739    |
+| EpThisIter      | 7            |
+| EpTrueRewMean   | 178          |
+| EpisodesSoFar   | 384          |
+| TimeElapsed     | 196          |
+| TimestepsSoFar  | 49121        |
+| entloss         | 0.0          |
+| entropy         | 0.5753312    |
+| ev_tdlam_before | 0.817        |
+| meankl          | 0.0063431645 |
+| optimgain       | 0.0070692133 |
+| surrgain        | 0.0070692133 |
+----------------------------------
+********** Iteration 48 ************
+Optimizing Policy...
+Expected: 0.009 Actual: 0.009
+Stepsize OK!
+Optimizing Discriminator...
+generator_loss |   expert_loss |       entropy |  entropy_loss | generator_acc |    expert_acc
+      0.52596 |       0.68253 |       0.66544 |      -0.00067 |       0.81836 |       0.53906
+---------------------------------
+| EpLenMean       | 174         |
+| EpRewMean       | 105.08956   |
+| EpThisIter      | 6           |
+| EpTrueRewMean   | 174         |
+| EpisodesSoFar   | 390         |
+| TimeElapsed     | 199         |
+| TimestepsSoFar  | 50119       |
+| entloss         | 0.0         |
+| entropy         | 0.569063    |
+| ev_tdlam_before | 0.804       |
+| meankl          | 0.006416788 |
+| optimgain       | 0.008728435 |
+| surrgain        | 0.008728435 |
+---------------------------------
