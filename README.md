@@ -1,4 +1,4 @@
-# Action Guided Adversarial Imitation Learning (AGAIL)
+# Action-Guided Adversarial Imitation Learning
 
 ## Algorithm framework
 
