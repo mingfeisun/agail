@@ -2,7 +2,7 @@
 
 ## Algorithm framework
 
-<img src="docs/framework.png" alt="agail" width="800px"/>
+<img src="docs/framework.png" alt="agail" width="500px"/>
 
 ## How to use
 
@@ -47,6 +47,9 @@ python3 plot_curve.py --env_id Hopper --timesteps 5000000
 ```
 
 ## Experiment outcomes
+* Overall
+<img src="docs/overall.png" alt="effective" width="800px"/>
+
 * Effectiveness
 <img src="docs/effective.png" alt="effective" width="800px"/>
 
