@@ -2,7 +2,7 @@
 
 ## Algorithm framework
 
-<img src="docs/framework.png" alt="agail" width="500px"/>
+<img src="docs/framework.png" alt="agail" width="700px"/>
 
 ## How to use
 
