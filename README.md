@@ -1,4 +1,6 @@
 # Action-Guided Adversarial Imitation Learning
+<img src="https://travis-ci.org/mingfeisun/agail.svg?branch=master" alt="building"/>
+
 
 ## Algorithm framework
 
