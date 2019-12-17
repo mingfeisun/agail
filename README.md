@@ -9,7 +9,7 @@
 ## How to use
 
 ### 1. Download expert data 
-Download expert data from this [dropbox url](https://www.dropbox.com/s/wu6fddmjk5ojrg6/expert_data.zip?dl=0). Unzip and place it in the scripts folder (i.e., *scripts/expert_data/*)
+Download expert data from this [dropbox url](https://www.dropbox.com/s/wu6fddmjk5ojrg6/expert_data.zip?dl=0) or [google drive url](https://drive.google.com/file/d/11TWL1gdqXwz-pDRW_hlPpNFJZBFRkM_5/view?usp=sharing). Unzip and place it in the scripts folder (i.e., *scripts/expert_data/*)
 
 ### 2. Running training scripts
 
