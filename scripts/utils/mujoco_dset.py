@@ -68,7 +68,7 @@ class Dset_gym(object):
 
 class Mujoco_Dset(object):
     def __init__(self, expert_path, train_fraction=0.7, traj_limitation=-1, randomize=True):
-        traj_data = np.load(expert_path)
+        traj_data = np.load(expert_path, allow_pickle=True)
         if traj_limitation < 0:
             traj_limitation = len(traj_data['obs'])
         obs = traj_data['obs'][:traj_limitation]
